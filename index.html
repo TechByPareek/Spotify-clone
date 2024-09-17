@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="img/logo.png" alt="spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songlist">
+            <h1>Best of Arijit Singh</h1>
+            
+            </div>
+               <div class="songitem">
+                <img alt="1">
+                <span class="songname">ik vaari aa</span>
+                <span class="songlistplay"><span class="timeset" >4:34 <i id="0" class='bx  songitemplay  bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">Tum hi ho</span>
+                <span class="songlistplay"><span class="timeset"> 4:22 <i id="1" class='bx songitemplay  bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">Meri Ashiqui</span>
+                <span class="songlistplay"><span class="timeset"> 4:26 <i id="2" class='bx  songitemplay bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">Humsafar</span>
+                <span class="songlistplay"><span class="timeset"> 4:28 <i id="3" class='bx  songitemplay bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">O Maahi</span>
+                <span class="songlistplay"><span class="timeset"> 3:53 <i id="4" class='bx  songitemplay bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">Satranga</span>
+                <span class="songlistplay"><span class="timeset"> 4:31 <i id="5" class='bx songitemplay  bx-play-circle'></i> </span></span>
+               </div>
+               <div class="songitem">
+                <img  alt="1">
+                <span class="songname">Apna bna le </span>
+                <span class="songlistplay"><span class="timeset"> 3:24 <i id="6" class='bx  songitemplay bx-play-circle'></i> </span></span>
+               </div>
+            </div>
+        </div>   
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="range" min="0" value="0" max="100">
+       
+        <div class="icons">
+            <i class='bx bx-skip-previous' id="previous"></i>
+            <i class='bx bx-play-circle' id="masterplay"></i>
+            <i class='bx bx-skip-next' id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="img/gif.gif" width="40px"   alt="" id="gif" > <span id="mastersongname">ik vaari aa</span>
+        </div>
+    </div>
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
